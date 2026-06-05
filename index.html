@@ -3,22 +3,104 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ColdFilesDaily</title>
+<title>ColdFilesDaily — Unsolved Mysteries, Decoded Daily</title>
+<meta name="description" content="ColdFilesDaily is a short-form video channel exploring unsolved mysteries, true crime, disappearances, unexplained phenomena and uncracked codes.">
 <style>
-  body{font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;max-width:720px;margin:40px auto;padding:0 20px;line-height:1.6;color:#1a1a1a}
-  h1{font-size:1.9rem;margin-bottom:.2em} a{color:#0a58ca} footer{margin-top:48px;font-size:.9rem;color:#666}
+  :root{--bg:#0e1116;--card:#171c24;--fg:#e8eaed;--mut:#9aa4b2;--acc:#e63946;--line:#252c36}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--fg);line-height:1.65}
+  a{color:#7fb0ff;text-decoration:none} a:hover{text-decoration:underline}
+  header{position:sticky;top:0;background:rgba(14,17,22,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);z-index:10}
+  nav{max-width:980px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:14px 20px}
+  .brand{font-weight:800;letter-spacing:.5px;font-size:1.15rem}
+  .brand span{color:var(--acc)}
+  nav .links a{color:var(--mut);margin-left:18px;font-size:.95rem}
+  .wrap{max-width:980px;margin:0 auto;padding:0 20px}
+  .hero{padding:84px 20px 64px;text-align:center;border-bottom:1px solid var(--line)}
+  .hero h1{font-size:2.7rem;margin:0 0 14px}.hero h1 span{color:var(--acc)}
+  .hero p{color:var(--mut);font-size:1.18rem;max-width:660px;margin:0 auto}
+  section{padding:54px 0;border-bottom:1px solid var(--line)}
+  h2{font-size:1.5rem;margin:0 0 18px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:20px}
+  .card h3{margin:0 0 8px;font-size:1.05rem}
+  .card p{margin:0;color:var(--mut);font-size:.94rem}
+  .btns{display:flex;flex-wrap:wrap;gap:12px;margin-top:6px}
+  .btn{display:inline-block;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 18px;color:var(--fg);font-weight:600}
+  .btn:hover{border-color:var(--acc);text-decoration:none}
+  footer{padding:34px 20px;text-align:center;color:var(--mut);font-size:.9rem}
+  footer a{color:var(--mut)}
 </style>
 </head>
 <body>
-<h1>ColdFilesDaily</h1>
-<p>ColdFilesDaily is a short-form video channel about unsolved mysteries, unexplained events,
-strange history, and incredible true stories. Videos are produced and published by an automated,
-single-operator tool to the channel owner&rsquo;s own social media accounts (TikTok, YouTube and Instagram).</p>
-<p>Our policies:</p>
-<ul>
-  <li><a href="terms.html">Terms of Service</a></li>
-  <li><a href="privacy.html">Privacy Policy</a></li>
-</ul>
-<footer>Contact: <a href="mailto:raphael.perez@hotmail.com">raphael.perez@hotmail.com</a></footer>
+<header>
+  <nav>
+    <div class="brand">Cold<span>Files</span>Daily</div>
+    <div class="links">
+      <a href="#about">About</a>
+      <a href="#watch">Watch</a>
+      <a href="terms.html">Terms</a>
+      <a href="privacy.html">Privacy</a>
+    </div>
+  </nav>
+</header>
+
+<div class="hero">
+  <h1>Cold<span>Files</span>Daily</h1>
+  <p>Unsolved mysteries, decoded daily. Short, cinematic deep-dives into the cases the world never closed.</p>
+</div>
+
+<div class="wrap">
+
+  <section id="about">
+    <h2>About</h2>
+    <p>ColdFilesDaily is a short-form video channel dedicated to the world's most gripping unsolved
+    mysteries — cold cases, strange disappearances, unexplained phenomena, forgotten history and
+    uncracked codes. Each episode distils a real story into a tight, atmospheric 60–90 seconds, built
+    from researched facts and narrated in a calm, documentary tone. New cases are published every day
+    across TikTok, YouTube and Instagram.</p>
+  </section>
+
+  <section>
+    <h2>What we cover</h2>
+    <div class="grid">
+      <div class="card"><h3>Unsolved crimes</h3><p>Cold cases and true-crime mysteries that were never closed.</p></div>
+      <div class="card"><h3>Disappearances</h3><p>People, planes and ships that vanished without a trace.</p></div>
+      <div class="card"><h3>Unexplained</h3><p>Anomalies, signals and phenomena science can't account for.</p></div>
+      <div class="card"><h3>Strange history</h3><p>Forgotten events and historical puzzles that still baffle.</p></div>
+      <div class="card"><h3>Codes &amp; ciphers</h3><p>Encrypted messages and puzzles that remain undeciphered.</p></div>
+      <div class="card"><h3>Incredible true stories</h3><p>Real events stranger than any fiction.</p></div>
+    </div>
+  </section>
+
+  <section id="watch">
+    <h2>Watch</h2>
+    <p>New mysteries every day — follow the channel:</p>
+    <div class="btns">
+      <a class="btn" href="https://www.tiktok.com/@coldfilesdailytiktok" target="_blank" rel="noopener">TikTok →</a>
+      <!-- REMPLACE l'URL ci-dessous par celle de TA chaîne YouTube (ou supprime ce bouton) -->
+      <a class="btn" href="https://www.youtube.com/@ColdFilesDaily" target="_blank" rel="noopener">YouTube →</a>
+      <!-- REMPLACE l'URL ci-dessous par celle de TON profil Instagram (ou supprime ce bouton) -->
+      <a class="btn" href="https://www.instagram.com/coldfilesdaily/" target="_blank" rel="noopener">Instagram →</a>
+    </div>
+  </section>
+
+  <section>
+    <h2>Policies</h2>
+    <p>By using this site and our channels you agree to our
+    <a href="terms.html">Terms of Service</a> and <a href="privacy.html">Privacy Policy</a>.</p>
+  </section>
+
+  <section style="border-bottom:none">
+    <h2>Contact</h2>
+    <p>Questions, rights requests or business enquiries:
+    <a href="mailto:raphael.perez@hotmail.com">raphael.perez@hotmail.com</a></p>
+  </section>
+
+</div>
+
+<footer>
+  © 2026 ColdFilesDaily · <a href="terms.html">Terms</a> · <a href="privacy.html">Privacy</a>
+</footer>
 </body>
 </html>
